@@ -35,6 +35,7 @@ Benchee.run(
     end
   },
   parallel: 4,
+  time: 1,
   inputs: inputs,
   formatters: [
     {Benchee.Formatters.HTML, file: "docs/integrated.html"},
