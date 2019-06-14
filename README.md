@@ -1,6 +1,6 @@
 # FieldmaskBenchmark
 
-This is the benchmark comparision between [fieldmask](https://github.com/seniverse/fieldmask) and [ex_fieldmask](https://github.com/seniverse/ex_fieldmask).
+This is the benchmark comparison between [fieldmask](https://github.com/seniverse/fieldmask) and [ex_fieldmask](https://github.com/seniverse/ex_fieldmask).
 
 ## Results
 
