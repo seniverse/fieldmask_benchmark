@@ -20,7 +20,7 @@ defmodule FieldmaskBenchmark.MixProject do
   defp deps do
     [
       {:benchee, "~> 1.0", only: :dev},
-      {:ex_fieldmask, "~> 0.2.0", only: :dev},
+      {:ex_fieldmask, "~> 0.3.0", only: :dev},
       {:fieldmask, "~> 0.0.1", only: :dev},
       {:benchee_html, "~> 1.0", only: :dev}
     ]
