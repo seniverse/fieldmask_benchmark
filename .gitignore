@@ -23,3 +23,5 @@ erl_crash.dump
 fieldmask_benchmark-*.tar
 
 .elixir_ls
+
+bench_test.exs

@@ -1,6 +1,6 @@
 # Benchmark Result
 
-**TL;DR** fieldmask@0.0.1 is more effective than ex_fieldmask@0.3.1
+**TL;DR** fieldmask@0.0.1 is more effective than ex_fieldmask@0.3.3
 
 ## Parser Benchmark
 
