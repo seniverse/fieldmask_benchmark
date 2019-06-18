@@ -3,7 +3,7 @@
   "benchee_html": {:hex, :benchee_html, "1.0.0", "5b4d24effebd060f466fb460ec06576e7b34a00fc26b234fe4f12c4f05c95947", [:mix], [{:benchee, ">= 0.99.0 and < 2.0.0", [hex: :benchee, repo: "hexpm", optional: false]}, {:benchee_json, "~> 1.0", [hex: :benchee_json, repo: "hexpm", optional: false]}], "hexpm"},
   "benchee_json": {:hex, :benchee_json, "1.0.0", "cc661f4454d5995c08fe10dd1f2f72f229c8f0fb1c96f6b327a8c8fc96a91fe5", [:mix], [{:benchee, ">= 0.99.0 and < 2.0.0", [hex: :benchee, repo: "hexpm", optional: false]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: false]}], "hexpm"},
   "deep_merge": {:hex, :deep_merge, "1.0.0", "b4aa1a0d1acac393bdf38b2291af38cb1d4a52806cf7a4906f718e1feb5ee961", [:mix], [], "hexpm"},
-  "ex_fieldmask": {:hex, :ex_fieldmask, "0.3.0", "9988fb221d3c835d5b282bae72cd167dbde9096e0e5994c109720fc203cbc319", [:make, :mix], [], "hexpm"},
+  "ex_fieldmask": {:hex, :ex_fieldmask, "0.3.1", "b4a648c9441dd802aada67773366d4de855d5a537a9aa44667a2ad1780c2b992", [:make, :mix], [], "hexpm"},
   "fieldmask": {:hex, :fieldmask, "0.0.1", "2a7d567bd5d5d2c5169338ee4bd47bd107f943876f879e8da65e8e16c5b22355", [:rebar3], [], "hexpm"},
   "jason": {:hex, :jason, "1.1.2", "b03dedea67a99223a2eaf9f1264ce37154564de899fd3d8b9a21b1a6fd64afe7", [:mix], [{:decimal, "~> 1.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm"},
 }
