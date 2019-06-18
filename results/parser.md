@@ -1,6 +1,6 @@
 # Benchmark
 
-Benchmark run from 2019-06-18 06:57:10.238105Z UTC
+Benchmark run from 2019-06-18 08:05:19.158741Z UTC
 
 ## System
 
@@ -63,19 +63,19 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">Erlang - grammar</td>
-    <td style="white-space: nowrap; text-align: right">203.16 K</td>
-    <td style="white-space: nowrap; text-align: right">4.92 μs</td>
-    <td style="white-space: nowrap; text-align: right">±1077.92%</td>
-    <td style="white-space: nowrap; text-align: right">3.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">5.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">223.05 K</td>
+    <td style="white-space: nowrap; text-align: right">4.48 μs</td>
+    <td style="white-space: nowrap; text-align: right">±787.93%</td>
+    <td style="white-space: nowrap; text-align: right">4 μs</td>
+    <td style="white-space: nowrap; text-align: right">6 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Elixir - algorithmic</td>
-    <td style="white-space: nowrap; text-align: right">108.61 K</td>
-    <td style="white-space: nowrap; text-align: right">9.21 μs</td>
-    <td style="white-space: nowrap; text-align: right">±1042.37%</td>
-    <td style="white-space: nowrap; text-align: right">6.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">22.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">133.76 K</td>
+    <td style="white-space: nowrap; text-align: right">7.48 μs</td>
+    <td style="white-space: nowrap; text-align: right">±383.75%</td>
+    <td style="white-space: nowrap; text-align: right">7 μs</td>
+    <td style="white-space: nowrap; text-align: right">10 μs</td>
   </tr>
 </table>
 
@@ -87,13 +87,13 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">Erlang - grammar</td>
-    <td style="white-space: nowrap;text-align: right">203.16 K</td>
+    <td style="white-space: nowrap;text-align: right">223.05 K</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Elixir - algorithmic</td>
-    <td style="white-space: nowrap; text-align: right">108.61 K</td>
-    <td style="white-space: nowrap; text-align: right">1.87x</td>
+    <td style="white-space: nowrap; text-align: right">133.76 K</td>
+    <td style="white-space: nowrap; text-align: right">1.67x</td>
   </tr>
 </table>
 
@@ -114,19 +114,19 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">Erlang - grammar</td>
-    <td style="white-space: nowrap; text-align: right">230.25 K</td>
-    <td style="white-space: nowrap; text-align: right">4.34 μs</td>
-    <td style="white-space: nowrap; text-align: right">±1816.78%</td>
-    <td style="white-space: nowrap; text-align: right">2.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">5.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">265.13 K</td>
+    <td style="white-space: nowrap; text-align: right">3.77 μs</td>
+    <td style="white-space: nowrap; text-align: right">±677.53%</td>
+    <td style="white-space: nowrap; text-align: right">4 μs</td>
+    <td style="white-space: nowrap; text-align: right">5 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Elixir - algorithmic</td>
-    <td style="white-space: nowrap; text-align: right">137.72 K</td>
-    <td style="white-space: nowrap; text-align: right">7.26 μs</td>
-    <td style="white-space: nowrap; text-align: right">±675.10%</td>
-    <td style="white-space: nowrap; text-align: right">5.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">12.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">158.42 K</td>
+    <td style="white-space: nowrap; text-align: right">6.31 μs</td>
+    <td style="white-space: nowrap; text-align: right">±872.42%</td>
+    <td style="white-space: nowrap; text-align: right">6 μs</td>
+    <td style="white-space: nowrap; text-align: right">8 μs</td>
   </tr>
 </table>
 
@@ -138,12 +138,12 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">Erlang - grammar</td>
-    <td style="white-space: nowrap;text-align: right">230.25 K</td>
+    <td style="white-space: nowrap;text-align: right">265.13 K</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Elixir - algorithmic</td>
-    <td style="white-space: nowrap; text-align: right">137.72 K</td>
+    <td style="white-space: nowrap; text-align: right">158.42 K</td>
     <td style="white-space: nowrap; text-align: right">1.67x</td>
   </tr>
 </table>
@@ -165,19 +165,19 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">Erlang - grammar</td>
-    <td style="white-space: nowrap; text-align: right">143.63 K</td>
-    <td style="white-space: nowrap; text-align: right">6.96 μs</td>
-    <td style="white-space: nowrap; text-align: right">±2386.30%</td>
-    <td style="white-space: nowrap; text-align: right">2.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">9.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">268.87 K</td>
+    <td style="white-space: nowrap; text-align: right">3.72 μs</td>
+    <td style="white-space: nowrap; text-align: right">±658.71%</td>
+    <td style="white-space: nowrap; text-align: right">3 μs</td>
+    <td style="white-space: nowrap; text-align: right">5 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Elixir - algorithmic</td>
-    <td style="white-space: nowrap; text-align: right">125.12 K</td>
-    <td style="white-space: nowrap; text-align: right">7.99 μs</td>
-    <td style="white-space: nowrap; text-align: right">±964.30%</td>
-    <td style="white-space: nowrap; text-align: right">5.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">15.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">147.10 K</td>
+    <td style="white-space: nowrap; text-align: right">6.80 μs</td>
+    <td style="white-space: nowrap; text-align: right">±378.73%</td>
+    <td style="white-space: nowrap; text-align: right">6 μs</td>
+    <td style="white-space: nowrap; text-align: right">10 μs</td>
   </tr>
 </table>
 
@@ -189,13 +189,13 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">Erlang - grammar</td>
-    <td style="white-space: nowrap;text-align: right">143.63 K</td>
+    <td style="white-space: nowrap;text-align: right">268.87 K</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Elixir - algorithmic</td>
-    <td style="white-space: nowrap; text-align: right">125.12 K</td>
-    <td style="white-space: nowrap; text-align: right">1.15x</td>
+    <td style="white-space: nowrap; text-align: right">147.10 K</td>
+    <td style="white-space: nowrap; text-align: right">1.83x</td>
   </tr>
 </table>
 
@@ -216,19 +216,19 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">Erlang - grammar</td>
-    <td style="white-space: nowrap; text-align: right">183.86 K</td>
-    <td style="white-space: nowrap; text-align: right">5.44 μs</td>
-    <td style="white-space: nowrap; text-align: right">±2007.93%</td>
-    <td style="white-space: nowrap; text-align: right">2.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">5.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">259.59 K</td>
+    <td style="white-space: nowrap; text-align: right">3.85 μs</td>
+    <td style="white-space: nowrap; text-align: right">±681.38%</td>
+    <td style="white-space: nowrap; text-align: right">4 μs</td>
+    <td style="white-space: nowrap; text-align: right">6 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Elixir - algorithmic</td>
-    <td style="white-space: nowrap; text-align: right">126.90 K</td>
-    <td style="white-space: nowrap; text-align: right">7.88 μs</td>
-    <td style="white-space: nowrap; text-align: right">±1388.92%</td>
-    <td style="white-space: nowrap; text-align: right">5.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">15.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">155.95 K</td>
+    <td style="white-space: nowrap; text-align: right">6.41 μs</td>
+    <td style="white-space: nowrap; text-align: right">±428.13%</td>
+    <td style="white-space: nowrap; text-align: right">6 μs</td>
+    <td style="white-space: nowrap; text-align: right">9 μs</td>
   </tr>
 </table>
 
@@ -240,13 +240,13 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">Erlang - grammar</td>
-    <td style="white-space: nowrap;text-align: right">183.86 K</td>
+    <td style="white-space: nowrap;text-align: right">259.59 K</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Elixir - algorithmic</td>
-    <td style="white-space: nowrap; text-align: right">126.90 K</td>
-    <td style="white-space: nowrap; text-align: right">1.45x</td>
+    <td style="white-space: nowrap; text-align: right">155.95 K</td>
+    <td style="white-space: nowrap; text-align: right">1.66x</td>
   </tr>
 </table>
 
@@ -267,19 +267,19 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">Erlang - grammar</td>
-    <td style="white-space: nowrap; text-align: right">243.68 K</td>
-    <td style="white-space: nowrap; text-align: right">4.10 μs</td>
-    <td style="white-space: nowrap; text-align: right">±873.67%</td>
-    <td style="white-space: nowrap; text-align: right">2.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">5.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">268.22 K</td>
+    <td style="white-space: nowrap; text-align: right">3.73 μs</td>
+    <td style="white-space: nowrap; text-align: right">±655.54%</td>
+    <td style="white-space: nowrap; text-align: right">3 μs</td>
+    <td style="white-space: nowrap; text-align: right">5 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Elixir - algorithmic</td>
-    <td style="white-space: nowrap; text-align: right">103.61 K</td>
-    <td style="white-space: nowrap; text-align: right">9.65 μs</td>
-    <td style="white-space: nowrap; text-align: right">±1427.49%</td>
-    <td style="white-space: nowrap; text-align: right">5.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">17.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">145.26 K</td>
+    <td style="white-space: nowrap; text-align: right">6.88 μs</td>
+    <td style="white-space: nowrap; text-align: right">±437.99%</td>
+    <td style="white-space: nowrap; text-align: right">6 μs</td>
+    <td style="white-space: nowrap; text-align: right">10 μs</td>
   </tr>
 </table>
 
@@ -291,13 +291,13 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">Erlang - grammar</td>
-    <td style="white-space: nowrap;text-align: right">243.68 K</td>
+    <td style="white-space: nowrap;text-align: right">268.22 K</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Elixir - algorithmic</td>
-    <td style="white-space: nowrap; text-align: right">103.61 K</td>
-    <td style="white-space: nowrap; text-align: right">2.35x</td>
+    <td style="white-space: nowrap; text-align: right">145.26 K</td>
+    <td style="white-space: nowrap; text-align: right">1.85x</td>
   </tr>
 </table>
 
@@ -318,19 +318,19 @@ Run Time
   </tr>
   <tr>
     <td style="white-space: nowrap">Erlang - grammar</td>
-    <td style="white-space: nowrap; text-align: right">65.48 K</td>
-    <td style="white-space: nowrap; text-align: right">15.27 μs</td>
-    <td style="white-space: nowrap; text-align: right">±1055.94%</td>
-    <td style="white-space: nowrap; text-align: right">9.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">31.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">92.53 K</td>
+    <td style="white-space: nowrap; text-align: right">10.81 μs</td>
+    <td style="white-space: nowrap; text-align: right">±205.63%</td>
+    <td style="white-space: nowrap; text-align: right">10 μs</td>
+    <td style="white-space: nowrap; text-align: right">14 μs</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Elixir - algorithmic</td>
-    <td style="white-space: nowrap; text-align: right">29.88 K</td>
-    <td style="white-space: nowrap; text-align: right">33.47 μs</td>
-    <td style="white-space: nowrap; text-align: right">±1070.92%</td>
-    <td style="white-space: nowrap; text-align: right">18.98 μs</td>
-    <td style="white-space: nowrap; text-align: right">73.98 μs</td>
+    <td style="white-space: nowrap; text-align: right">49.39 K</td>
+    <td style="white-space: nowrap; text-align: right">20.25 μs</td>
+    <td style="white-space: nowrap; text-align: right">±170.43%</td>
+    <td style="white-space: nowrap; text-align: right">19 μs</td>
+    <td style="white-space: nowrap; text-align: right">38 μs</td>
   </tr>
 </table>
 
@@ -342,13 +342,13 @@ Comparison
     <th style="text-align: right">Slower</th>
   <tr>
     <td style="white-space: nowrap">Erlang - grammar</td>
-    <td style="white-space: nowrap;text-align: right">65.48 K</td>
+    <td style="white-space: nowrap;text-align: right">92.53 K</td>
     <td>&nbsp;</td>
   </tr>
   <tr>
     <td style="white-space: nowrap">Elixir - algorithmic</td>
-    <td style="white-space: nowrap; text-align: right">29.88 K</td>
-    <td style="white-space: nowrap; text-align: right">2.19x</td>
+    <td style="white-space: nowrap; text-align: right">49.39 K</td>
+    <td style="white-space: nowrap; text-align: right">1.87x</td>
   </tr>
 </table>
 

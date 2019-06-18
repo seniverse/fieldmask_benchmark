@@ -1,11 +1,7 @@
-inputs = %{
-  "a,b,c" => "a,b,c",
-  "a(b,c)" => "a(b,c)",
-  "a/b/c" => "a/b/c",
-  "a/b,c" => "a/b,c",
-  "a/*/c" => "a/*/c",
-  "ob,a(k,z(f,g/d)),c" => "ob,a(k,z(f,g/d)),c"
-}
+inputs =
+  for input <- ["a,b,c", "a(b,c)", "a/b/c", "a/b,c", "a/*/c", "ob,a(k,z(f,g/d)),c"], into: %{} do
+    {input, input}
+  end
 
 Benchee.run(
   %{
