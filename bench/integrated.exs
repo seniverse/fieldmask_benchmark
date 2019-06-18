@@ -35,5 +35,9 @@ Benchee.run(
     end
   },
   parallel: 4,
-  inputs: inputs
+  inputs: inputs,
+  formatters: [
+    {Benchee.Formatters.Markdown, file: "results/integrated.md"},
+    Benchee.Formatters.Console
+  ]
 )

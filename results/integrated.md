@@ -1,81 +1,357 @@
-Operating System: macOS
-CPU Information: Intel(R) Core(TM) i7-6660U CPU @ 2.40GHz
-Number of Available Cores: 4
-Available memory: 16 GB
-Elixir 1.8.1
-Erlang 21.3.5
+# Benchmark
+
+Benchmark run from 2019-06-18 06:48:48.883327Z UTC
+
+## System
+
+Benchmark suite executing on the following system:
+
+<table style="width: 1%">
+  <tr>
+    <th style="width: 1%; white-space: nowrap">Operating System</th>
+    <td>macOS</td>
+  </tr><tr>
+    <th style="white-space: nowrap">CPU Information</th>
+    <td style="white-space: nowrap">Intel(R) Core(TM) i7-6660U CPU @ 2.40GHz</td>
+  </tr><tr>
+    <th style="white-space: nowrap">Number of Available Cores</th>
+    <td style="white-space: nowrap">4</td>
+  </tr><tr>
+    <th style="white-space: nowrap">Available Memory</th>
+    <td style="white-space: nowrap">16 GB</td>
+  </tr><tr>
+    <th style="white-space: nowrap">Elixir Version</th>
+    <td style="white-space: nowrap">1.8.1</td>
+  </tr><tr>
+    <th style="white-space: nowrap">Erlang Version</th>
+    <td style="white-space: nowrap">21.3.5</td>
+  </tr>
+</table>
+
+## Configuration
 
 Benchmark suite executing with the following configuration:
-warmup: 2 s
-time: 5 s
-memory time: 0 ns
-parallel: 4
-inputs: a(b,c), a,b - array at the beginning, a,b - simple case, a/*/c, a/b, url,object(content,attachments/url)
-Estimated total run time: 1.40 min
 
-Benchmarking Elixir - algorithmic with input a(b,c)...
-Benchmarking Elixir - algorithmic with input a,b - array at the beginning...
-Benchmarking Elixir - algorithmic with input a,b - simple case...
-Benchmarking Elixir - algorithmic with input a/*/c...
-Benchmarking Elixir - algorithmic with input a/b...
-Benchmarking Elixir - algorithmic with input url,object(content,attachments/url)...
-Benchmarking Erlang - grammar with input a(b,c)...
-Benchmarking Erlang - grammar with input a,b - array at the beginning...
-Benchmarking Erlang - grammar with input a,b - simple case...
-Benchmarking Erlang - grammar with input a/*/c...
-Benchmarking Erlang - grammar with input a/b...
-Benchmarking Erlang - grammar with input url,object(content,attachments/url)...
+<table style="width: 1%">
+  <tr>
+    <th style="width: 1%">:time</th>
+    <td style="white-space: nowrap">5 s</td>
+  </tr><tr>
+    <th>:parallel</th>
+    <td style="white-space: nowrap">4</td>
+  </tr><tr>
+    <th>:warmup</th>
+    <td style="white-space: nowrap">2 s</td>
+  </tr>
+</table>
 
-##### With input a(b,c) #####
-Name                           ips        average  deviation         median         99th %
-Erlang - grammar          118.14 K        8.46 μs  ±4177.06%        4.98 μs        8.98 μs
-Elixir - algorithmic      107.71 K        9.28 μs   ±280.14%        7.98 μs       17.98 μs
+## Statistics
 
-Comparison: 
-Erlang - grammar          118.14 K
-Elixir - algorithmic      107.71 K - 1.10x slower +0.82 μs
 
-##### With input a,b - array at the beginning #####
-Name                           ips        average  deviation         median         99th %
-Erlang - grammar          171.76 K        5.82 μs  ±2531.98%        2.98 μs        4.98 μs
-Elixir - algorithmic       99.08 K       10.09 μs  ±1740.68%        5.98 μs       32.98 μs
 
-Comparison: 
-Erlang - grammar          171.76 K
-Elixir - algorithmic       99.08 K - 1.73x slower +4.27 μs
+__Input: a(b,c)__
 
-##### With input a,b - simple case #####
-Name                           ips        average  deviation         median         99th %
-Erlang - grammar          217.65 K        4.59 μs   ±796.18%        3.98 μs        5.98 μs
-Elixir - algorithmic       77.04 K       12.98 μs  ±1363.66%        6.98 μs       50.98 μs
+Run Time
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Average</th>
+    <th style="text-align: right">Devitation</th>
+    <th style="text-align: right">Median</th>
+    <th style="text-align: right">99th&nbsp;%</th>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Erlang - grammar</td>
+    <td style="white-space: nowrap; text-align: right">173.65 K</td>
+    <td style="white-space: nowrap; text-align: right">5.76 μs</td>
+    <td style="white-space: nowrap; text-align: right">±971.23%</td>
+    <td style="white-space: nowrap; text-align: right">5 μs</td>
+    <td style="white-space: nowrap; text-align: right">9 μs</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Elixir - algorithmic</td>
+    <td style="white-space: nowrap; text-align: right">107.97 K</td>
+    <td style="white-space: nowrap; text-align: right">9.26 μs</td>
+    <td style="white-space: nowrap; text-align: right">±269.75%</td>
+    <td style="white-space: nowrap; text-align: right">8 μs</td>
+    <td style="white-space: nowrap; text-align: right">17 μs</td>
+  </tr>
+</table>
 
-Comparison: 
-Erlang - grammar          217.65 K
-Elixir - algorithmic       77.04 K - 2.82x slower +8.38 μs
+Comparison
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Slower</th>
+  <tr>
+    <td style="white-space: nowrap">Erlang - grammar</td>
+    <td style="white-space: nowrap;text-align: right">173.65 K</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Elixir - algorithmic</td>
+    <td style="white-space: nowrap; text-align: right">107.97 K</td>
+    <td style="white-space: nowrap; text-align: right">1.61x</td>
+  </tr>
+</table>
 
-##### With input a/*/c #####
-Name                           ips        average  deviation         median         99th %
-Erlang - grammar          203.44 K        4.92 μs   ±600.79%        4.98 μs        6.98 μs
-Elixir - algorithmic      100.21 K        9.98 μs   ±435.29%        8.98 μs       22.98 μs
 
-Comparison: 
-Erlang - grammar          203.44 K
-Elixir - algorithmic      100.21 K - 2.03x slower +5.06 μs
+<hr/>
 
-##### With input a/b #####
-Name                           ips        average  deviation         median         99th %
-Erlang - grammar          328.44 K        3.04 μs  ±1006.99%        2.98 μs        4.98 μs
-Elixir - algorithmic      168.47 K        5.94 μs   ±547.03%        4.98 μs        7.98 μs
+__Input: a,b - array at the beginning__
 
-Comparison: 
-Erlang - grammar          328.44 K
-Elixir - algorithmic      168.47 K - 1.95x slower +2.89 μs
+Run Time
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Average</th>
+    <th style="text-align: right">Devitation</th>
+    <th style="text-align: right">Median</th>
+    <th style="text-align: right">99th&nbsp;%</th>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Erlang - grammar</td>
+    <td style="white-space: nowrap; text-align: right">271.28 K</td>
+    <td style="white-space: nowrap; text-align: right">3.69 μs</td>
+    <td style="white-space: nowrap; text-align: right">±743.06%</td>
+    <td style="white-space: nowrap; text-align: right">3 μs</td>
+    <td style="white-space: nowrap; text-align: right">5 μs</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Elixir - algorithmic</td>
+    <td style="white-space: nowrap; text-align: right">141.24 K</td>
+    <td style="white-space: nowrap; text-align: right">7.08 μs</td>
+    <td style="white-space: nowrap; text-align: right">±471.56%</td>
+    <td style="white-space: nowrap; text-align: right">6 μs</td>
+    <td style="white-space: nowrap; text-align: right">10 μs</td>
+  </tr>
+</table>
 
-##### With input url,object(content,attachments/url) #####
-Name                           ips        average  deviation         median         99th %
-Erlang - grammar           96.27 K       10.39 μs   ±209.66%        9.98 μs       12.98 μs
-Elixir - algorithmic       23.65 K       42.28 μs  ±1161.73%       27.98 μs      131.98 μs
+Comparison
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Slower</th>
+  <tr>
+    <td style="white-space: nowrap">Erlang - grammar</td>
+    <td style="white-space: nowrap;text-align: right">271.28 K</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Elixir - algorithmic</td>
+    <td style="white-space: nowrap; text-align: right">141.24 K</td>
+    <td style="white-space: nowrap; text-align: right">1.92x</td>
+  </tr>
+</table>
 
-Comparison: 
-Erlang - grammar           96.27 K
-Elixir - algorithmic       23.65 K - 4.07x slower +31.89 μs
+
+<hr/>
+
+__Input: a,b - simple case__
+
+Run Time
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Average</th>
+    <th style="text-align: right">Devitation</th>
+    <th style="text-align: right">Median</th>
+    <th style="text-align: right">99th&nbsp;%</th>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Erlang - grammar</td>
+    <td style="white-space: nowrap; text-align: right">215.68 K</td>
+    <td style="white-space: nowrap; text-align: right">4.64 μs</td>
+    <td style="white-space: nowrap; text-align: right">±607.62%</td>
+    <td style="white-space: nowrap; text-align: right">4 μs</td>
+    <td style="white-space: nowrap; text-align: right">7 μs</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Elixir - algorithmic</td>
+    <td style="white-space: nowrap; text-align: right">116.78 K</td>
+    <td style="white-space: nowrap; text-align: right">8.56 μs</td>
+    <td style="white-space: nowrap; text-align: right">±512.65%</td>
+    <td style="white-space: nowrap; text-align: right">7 μs</td>
+    <td style="white-space: nowrap; text-align: right">15 μs</td>
+  </tr>
+</table>
+
+Comparison
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Slower</th>
+  <tr>
+    <td style="white-space: nowrap">Erlang - grammar</td>
+    <td style="white-space: nowrap;text-align: right">215.68 K</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Elixir - algorithmic</td>
+    <td style="white-space: nowrap; text-align: right">116.78 K</td>
+    <td style="white-space: nowrap; text-align: right">1.85x</td>
+  </tr>
+</table>
+
+
+<hr/>
+
+__Input: a/*/c__
+
+Run Time
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Average</th>
+    <th style="text-align: right">Devitation</th>
+    <th style="text-align: right">Median</th>
+    <th style="text-align: right">99th&nbsp;%</th>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Erlang - grammar</td>
+    <td style="white-space: nowrap; text-align: right">96.00 K</td>
+    <td style="white-space: nowrap; text-align: right">10.42 μs</td>
+    <td style="white-space: nowrap; text-align: right">±5277.72%</td>
+    <td style="white-space: nowrap; text-align: right">5 μs</td>
+    <td style="white-space: nowrap; text-align: right">13 μs</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Elixir - algorithmic</td>
+    <td style="white-space: nowrap; text-align: right">65.34 K</td>
+    <td style="white-space: nowrap; text-align: right">15.31 μs</td>
+    <td style="white-space: nowrap; text-align: right">±1646.25%</td>
+    <td style="white-space: nowrap; text-align: right">9 μs</td>
+    <td style="white-space: nowrap; text-align: right">51 μs</td>
+  </tr>
+</table>
+
+Comparison
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Slower</th>
+  <tr>
+    <td style="white-space: nowrap">Erlang - grammar</td>
+    <td style="white-space: nowrap;text-align: right">96.00 K</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Elixir - algorithmic</td>
+    <td style="white-space: nowrap; text-align: right">65.34 K</td>
+    <td style="white-space: nowrap; text-align: right">1.47x</td>
+  </tr>
+</table>
+
+
+<hr/>
+
+__Input: a/b__
+
+Run Time
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Average</th>
+    <th style="text-align: right">Devitation</th>
+    <th style="text-align: right">Median</th>
+    <th style="text-align: right">99th&nbsp;%</th>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Erlang - grammar</td>
+    <td style="white-space: nowrap; text-align: right">303.28 K</td>
+    <td style="white-space: nowrap; text-align: right">3.30 μs</td>
+    <td style="white-space: nowrap; text-align: right">±1393.17%</td>
+    <td style="white-space: nowrap; text-align: right">3 μs</td>
+    <td style="white-space: nowrap; text-align: right">5 μs</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Elixir - algorithmic</td>
+    <td style="white-space: nowrap; text-align: right">137.25 K</td>
+    <td style="white-space: nowrap; text-align: right">7.29 μs</td>
+    <td style="white-space: nowrap; text-align: right">±1252.38%</td>
+    <td style="white-space: nowrap; text-align: right">5 μs</td>
+    <td style="white-space: nowrap; text-align: right">14 μs</td>
+  </tr>
+</table>
+
+Comparison
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Slower</th>
+  <tr>
+    <td style="white-space: nowrap">Erlang - grammar</td>
+    <td style="white-space: nowrap;text-align: right">303.28 K</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Elixir - algorithmic</td>
+    <td style="white-space: nowrap; text-align: right">137.25 K</td>
+    <td style="white-space: nowrap; text-align: right">2.21x</td>
+  </tr>
+</table>
+
+
+<hr/>
+
+__Input: url,object(content,attachments/url)__
+
+Run Time
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Average</th>
+    <th style="text-align: right">Devitation</th>
+    <th style="text-align: right">Median</th>
+    <th style="text-align: right">99th&nbsp;%</th>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Erlang - grammar</td>
+    <td style="white-space: nowrap; text-align: right">89.36 K</td>
+    <td style="white-space: nowrap; text-align: right">11.19 μs</td>
+    <td style="white-space: nowrap; text-align: right">±443.08%</td>
+    <td style="white-space: nowrap; text-align: right">10 μs</td>
+    <td style="white-space: nowrap; text-align: right">17 μs</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Elixir - algorithmic</td>
+    <td style="white-space: nowrap; text-align: right">32.41 K</td>
+    <td style="white-space: nowrap; text-align: right">30.86 μs</td>
+    <td style="white-space: nowrap; text-align: right">±212.68%</td>
+    <td style="white-space: nowrap; text-align: right">29 μs</td>
+    <td style="white-space: nowrap; text-align: right">56 μs</td>
+  </tr>
+</table>
+
+Comparison
+<table style="width: 1%">
+  <tr>
+    <th>Name</th>
+    <th style="text-align: right">IPS</th>
+    <th style="text-align: right">Slower</th>
+  <tr>
+    <td style="white-space: nowrap">Erlang - grammar</td>
+    <td style="white-space: nowrap;text-align: right">89.36 K</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="white-space: nowrap">Elixir - algorithmic</td>
+    <td style="white-space: nowrap; text-align: right">32.41 K</td>
+    <td style="white-space: nowrap; text-align: right">2.76x</td>
+  </tr>
+</table>
+
+
+<hr/>
+
