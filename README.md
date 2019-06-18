@@ -4,7 +4,7 @@ This is the benchmark comparison between [fieldmask](https://github.com/senivers
 
 ## Results
 
-See [Benchee Report](https://seniverse.github.io/fieldmask_benchmark/).
+See [Benchee Report](./results).
 
 ## How to run it
 
